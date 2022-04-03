@@ -1,4 +1,3 @@
-
 void inicializarArreglo();
 void dificultad();
 void gotoxy(int x,int y);
