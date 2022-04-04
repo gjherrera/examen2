@@ -142,7 +142,7 @@ srand((unsigned)time(NULL));
 xxc=(rand()%73)+4;
 srand((unsigned)time(NULL));
 yyc=(rand()%19)+4;
-Puntos=Puntos+5;
+Puntos=Puntos+1;
 gotoxy(50,2);cout<<Puntos;
 }
 if (tiempo2 %10==0){
@@ -157,7 +157,7 @@ yyc=(rand()%19)+4;
 }
 
 void proceso(char &tecla, int &puntos){
-Puntos = puntos;
+Puntos = puntos++;
 borrarcuerpo();
 comida();
 puntosx();
