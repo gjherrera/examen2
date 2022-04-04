@@ -183,7 +183,7 @@ void puntosx()
 
 void proceso(char &tecla, int &puntos)
 { 
-	puntos = Puntos;
+	puntos = Puntos++;
 	borrarcuerpo();
 	comida();
 	puntosx();
